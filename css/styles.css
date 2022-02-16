@@ -1,0 +1,64 @@
+/* CSS Reference from W3School: https://www.w3schools.com/cssref/ */
+
+/* Example Variables */
+:root {
+	/* Fonts */
+	--font-family1: 'Akaya Telivigala', cursive;
+    --font-family2: 'Kanit', sans-serif;
+    --font-family3: 'Open Sans', sans-serif;
+    --font-family4: 'Righteous', cursive;
+    
+	/* Colors */
+	--main-color-gray: #485359;
+	--main-color-white: #e9f0f2;
+	--main-color-black: #0d0d0d;
+	--main-color-light: #5ef2ad;
+	--main-color-dark: #45735d;
+	--main-color-light2: #f38888;
+	--main-color-dark2: #d27575;
+	--main-color-light3: #a0d3f2;
+	--main-color-dark3: #769bb3;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Example Syntax */
+#Landing {
+	height: 105vh;
+	background-color: var(--main-color-dark);
+    font-family: 'Righteous', cursive;
+}
+
+#Navigation {
+	height: 22vh;
+	background-color: var(--main-color-light);
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+#about {
+	height: 60vh;
+	background-color: var(--main-color-light2);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#experience {
+	height: 45vh;
+	background-color: var(--main-color-light3);
+    font-family: 'Kanit', sans-serif;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
