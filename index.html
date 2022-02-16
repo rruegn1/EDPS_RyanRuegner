@@ -12,6 +12,24 @@
 			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 			crossorigin="anonymous"
 		/>
+        
+        <!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Kanit:wght@300&family=Open+Sans:wght@300&family=Righteous&display=swap" rel="stylesheet">
+
+		<!-- Main Stylesheet -->
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<style>
+			/* Hi, I'm an internal stylesheet, and I usually appear within the header section following the external stylesheets listed above. */
+			#Landing {
+				
+			}
+		</style>
 
 		<title>EDPS 6560 Spring 2020 - Week 3</title>
 	</head>
@@ -19,14 +37,36 @@
 	<body>
 		<!-- Beginning of Profile
         -->
-		<div id="Landing">
-			<h1><strong>Ryan Ruegner</strong></h1>
-			<h2>Medical Laboratory Scientist with ARUP at the University of Utah Hospital</h2>
-			<h3>Blood Banking | Mentoring</h3>
-			<h4>
-				What do they got in there? King Kong? Must go faster... go, go, go, go, go! Jaguar shark!
-			</h4>
-            
+		<div id="Landing" class="container-fluid">
+            <div id="Landing_header" class="row justify-content-between" style="height: 10vh;">
+				<div class="col-auto">
+			         <h1><strong>Ryan Ruegner</strong></h1>
+                </div>
+                <div class="col-auto">
+					<a href="contact.html"><i class="fas fa-envelope"></i> Contact Me</a>
+                </div>
+            </div>
+            <div id="Landing_sec1" class="row justify-content-around align-items-center" style="height: 50vh;">
+                <div class="col-4">
+			         <h2>Medical Laboratory Scientist with ARUP at the University of Utah Hospital</h2>
+			         <h3>Blood Banking | Mentoring</h3>
+                     <a href="#Landing_sec2">
+						<span>Scroll Down</span><br />
+						<i class="fas fa-chevron-circle-down"></i>
+					</a>
+                </div>
+                <div class="col-5">
+					<img src="img/ReesesPic.jpg" width="100%" height="auto" alt="Reese's Peanut Butter Cups" />
+				</div>
+            </div>
+            <div id="Landing_sec2" class="row justify-content-around" style="height: 50vh;">
+				<div class="col-4 offset-1 align-self-center">
+			         <h4>
+				        What do they got in there? King Kong? Must go faster... go, go, go, go, go! Jaguar shark!
+			         </h4>
+                     <a class="btn btn-lg btn-primary rounded-pill" role="button" href="#about">Learn More</a>
+                </div>
+            </div>
 		<!-- Start Navigation Section -->
 		</div>
 		<nav id="Navigation">
@@ -41,17 +81,18 @@
 		</nav>
         
         <!-- Start About Me Section -->
-		<div id="about">
-			<!-- Start About Me Section -->
-			<h1>About Me</h1>
-			<img src="img/Buffalo.jpg" alt="Buffalo" height="300" width="auto" />
+		<div id="about" class="container-fluid">
+            <div id="about_header" class="row justify-content-around align-items-center" style="height: 45vh;">
+                <h1>About Me</h1>
+			     <img src="img/Buffalo.jpg" alt="Buffalo" height="300" width="auto" />
+            </div>
 			<p>
 				Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should. You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager? Do you have any idea how long it takes those cups to decompose.
 			</p>
 		</div>
         
 		<!-- Start Experience Section -->
-		<div id="sec_exp">
+		<div id="experience">
 			<h1>Experience</h1>
 			<h2>Medical Laboratory Scientist</h2>
 			<h3>Blood Bank, <br /><span>ARUP at the University of Utah Hospital</span></h3>
