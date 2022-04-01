@@ -50,8 +50,14 @@ No media query for `xs` since this is the default in Bootstrap */
 
 .contact {
     position: absolute;
-    right: 0
+    right: 0;
         
+}
+
+.home { 
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 #Portfolio {
@@ -65,7 +71,8 @@ No media query for `xs` since this is the default in Bootstrap */
     left: 200px;
 	height: 88vh;
 	background-color: ;
-    font-family: 'Righteous'', cursive;
+    font-family: 'Righteous', cursive;
+        
     
 }
 
