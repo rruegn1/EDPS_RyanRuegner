@@ -54,6 +54,37 @@ No media query for `xs` since this is the default in Bootstrap */
         
 }
 
+.UofUParent { 
+    
+    width: auto;
+    height: 100px;
+    background-color: beige;
+}
+
+.UofUChild {
+    background-color: beige;
+    height: 100%;
+    width: 25%;
+    
+    background-size: 100px auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    animation: broom 15s ease-in forwards infinite alternate ;
+        
+}
+
+.parentanimate:hover .childanimate{
+    animation-play-state: paused;
+}
+
+@keyframes broom{
+    0%{transform: translatex(0%);}
+   
+    66%{transform: translateX(100%);}
+    77%{transform: scaleX(-1);}
+    100%{transform: translatex(100%);}
+}
+
 .home { 
     position: absolute;
     right: 0;
