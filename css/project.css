@@ -64,7 +64,7 @@ No media query for `xs` since this is the default in Bootstrap */
 .UofUChild {
     background-color: beige;
     height: 100%;
-    width: 200px;
+    width: 150px;
     
     background-size: 100px auto;
     background-repeat:no-repeat;
