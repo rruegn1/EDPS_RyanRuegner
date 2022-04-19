@@ -25,7 +25,7 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Example Syntax */
 #Landing {
-	height: 105vh;
+	height: 200vh;
 	background-color: var(--main-color-dark);
     font-family: 'Righteous', cursive;
 }
@@ -50,21 +50,21 @@ No media query for `xs` since this is the default in Bootstrap */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 400px) {
     html{
-    font-size:50%
+    font-size: 75%
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     html{
-    font-size:100%    
+    font-size: 100%    
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     html{
-    font-size:100%
+    font-size: 100%
     }
 }
     
@@ -72,6 +72,6 @@ No media query for `xs` since this is the default in Bootstrap */
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     html{
-    font-size:150%
+    font-size: 150%
 }
 
