@@ -52,7 +52,7 @@ No media query for `xs` since this is the default in Bootstrap */
 .contact {
     position: absolute;
     right: 20px;
-	font-size: 20px;
+    font-size: 20px;
         
 }
 
@@ -91,7 +91,7 @@ No media query for `xs` since this is the default in Bootstrap */
     position: absolute;
     right: 20px;
     bottom: 0;
-	font-size: 20px;
+    font-size: 20px;
 }
 
 #Portfolio {
